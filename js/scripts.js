@@ -9,5 +9,13 @@ function TRACK()
   var sideC = parseInt("dimension3");
   if (sideA === sideB && sideB === sideC){
     alert("Equilateral Triangle");
+  }else if (sideA === sideB && sideA !== sideC){
+    alert("Isosceles Triangle");
+  }else if (sideA === sideC && sideA !== sideB){
+    alert("Isosceles Triangle");
+  }else if (sideB === sideC && sideB !== sideA){
+    alert("Isosceles Triangle");
+  }else if (sideA !== sideB && sideA !== sideC && sideB !== sideC && sideA + sideB > sideC && sideA + sideC > sideB && sideC + sideB > sideA){
+    alert("Scalene Triangle");
   }
 }
