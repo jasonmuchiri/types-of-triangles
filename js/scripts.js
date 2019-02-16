@@ -1,8 +1,8 @@
 function TRACK()
 {
-  var dimension1 = document.getElementById("value1").value;
-  var dimension2 = document.getElementById("value2").value;
-  var dimension3 = document.getElementById("value3").value;
+  var dimension1 = document.getElementById("data1").value;
+  var dimension2 = document.getElementById("data2").value;
+  var dimension3 = document.getElementById("data3").value;
   var sides = ["dimension1","dimension2","dimension3"];
   var sideA = parseInt("dimension1");
   var sideB = parseInt("dimension2");
