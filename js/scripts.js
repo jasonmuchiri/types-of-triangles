@@ -1,4 +1,4 @@
-function TRACK(){
+function check(){
   var dimension1 = document.getElementById("d1").value;
   var dimension2 = document.getElementById("d2").value;
   var dimension3 = document.getElementById("d3").value;
