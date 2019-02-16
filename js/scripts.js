@@ -1,11 +1,11 @@
 function check(){
-  var dimension1 = document.getElementById("d1").value;
-  var dimension2 = document.getElementById("d2").value;
-  var dimension3 = document.getElementById("d3").value;
-  var sides = [dimension1,dimension2,dimension3];
-  var sideA = parseInt("dimension1");
-  var sideB = parseInt("dimension2");
-  var sideC = parseInt("dimension3");
+  var inp1 = document.getElementById("d1").value;
+  var inp2 = document.getElementById("d2").value;
+  var inp3 = document.getElementById("d3").value;
+  var sides = [inp1,inp2,inp3];
+  var sideA = parseInt("inp");
+  var sideB = parseInt("inp2");
+  var sideC = parseInt("inp3");
   if (sideA === sideB && sideB === sideC){
     alert("Equilateral Triangle");
   }else if (sideA === sideB && sideA !== sideC){
