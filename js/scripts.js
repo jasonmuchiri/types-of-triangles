@@ -7,7 +7,6 @@ function TRACK()
   var sideA = parseInt("dimension1");
   var sideB = parseInt("dimension2");
   var sideC = parseInt("dimension3");
-
   if (sideA === sideB && sideB === sideC){
     alert("Equilateral Triangle");
   }
