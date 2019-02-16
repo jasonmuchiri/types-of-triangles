@@ -20,6 +20,8 @@ function TRACK()
   }else if (sideA + sideB <= sideC){
     alert("NOT a Triangle");
   }else if (sideA + sideC <= sideB){
-    alert("NOT a triangle");
-  }else if (sideB + side)
+    alert("NOT a Triangle");
+  }else if (sideB + sideC <= sideA){
+    alert("NOT a Triangle");
+  }
 }
