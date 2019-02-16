@@ -19,5 +19,7 @@ function TRACK()
     alert("Scalene Triangle");
   }else if (sideA + sideB <= sideC){
     alert("NOT a Triangle");
-  }
+  }else if (sideA + sideC <= sideB){
+    alert("NOT a triangle");
+  }else if (sideB + side)
 }
