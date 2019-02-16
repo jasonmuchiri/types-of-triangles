@@ -9,6 +9,6 @@ function TRACK()
   var sideC = parseInt("dimension3");
 
   if (sideA === sideB && sideB === sideC){
-    alert("Equilateral Triangle");
+    window.alert("Equilateral Triangle");
   }
 }
