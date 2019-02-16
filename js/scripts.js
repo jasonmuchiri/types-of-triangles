@@ -17,5 +17,7 @@ function TRACK()
     alert("Isosceles Triangle");
   }else if (sideA !== sideB && sideA !== sideC && sideB !== sideC && sideA + sideB > sideC && sideA + sideC > sideB && sideC + sideB > sideA){
     alert("Scalene Triangle");
+  }else if (sideA + sideB <= sideC){
+    alert("NOT a Triangle");
   }
 }
