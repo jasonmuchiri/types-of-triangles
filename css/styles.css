@@ -4,4 +4,10 @@ img{
 .boxes{
   font-weight: bold;
   font-family: sans-serif;
+  width: auto;
+  border:20px;
+}
+body{
+  margin-left: 70px;
+  margin-right:50px;
 }
