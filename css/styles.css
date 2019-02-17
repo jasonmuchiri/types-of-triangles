@@ -7,18 +7,29 @@ img{
   width: auto;
   border:20px;
   font-size: 25px;
+  color: #E71935;
+  size: 25px;
+  text-align: justify;
 }
 body{
   margin-left: 70px;
-  margin-right:50px;
+  margin-right:70px;
   margin-bottom: 120px;
+  border-bottom: 50px solid #6D3A47;
+  border-top: 15px solid maroon;
+  background-color: #0AF58E;
+  border-left:40px
 }
 .info{
   font-size: 25px;
   font-family: sans-serif;
+  text-align: center;
 }
 h1{
   font-size: 50px;
+  color:  #C4257C  ;
+  font-style: italic;
+  text-shadow: left;
 }
 .button{
   size:20px;
