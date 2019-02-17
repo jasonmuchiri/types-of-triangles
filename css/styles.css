@@ -19,6 +19,7 @@ body{
   border-top: 15px solid maroon;
   background-color: #0AF58E;
   border-left:40px
+  padding:6px;
 }
 .info{
   font-size: 25px;
