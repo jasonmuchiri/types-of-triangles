@@ -3,9 +3,9 @@ function check(){
   var length2 = document.getElementById("data2").value;
   var length3 = document.getElementById("data3").value;
   var sides = ["sideA","sideB","sideC"];
-  var sideA = parseInt("length1");
-  var sideB = parseInt("length2");
-  var sideC = parseInt("length3");
+  var sideA = parseInt(length1);
+  var sideB = parseInt(length2);
+  var sideC = parseInt(length3);
   if (sideA === sideB && sideB === sideC){
     alert("Equilateral Triangle");
   }else if (sideA === sideB && sideA !== sideC){
