@@ -8,11 +8,11 @@ function check(){
   var sideC = parseInt(length3);
   if (sideA === sideB && sideB === sideC){
     alert("Equilateral Triangle");
-  }else if (sideA === sideB && sideA !== sideC){
+  }else if (sideA === sideB && sideA !== sideC && sideA + sideB > sideC){
     alert("Isosceles Triangle");
-  }else if (sideA === sideC && sideA !== sideB){
+  }else if (sideA === sideC && sideA !== sideB && sideA + sideC > sideB){
     alert("Isosceles Triangle");
-  }else if (sideB === sideC && sideB !== sideA){
+  }else if (sideB === sideC && sideB !== sideA && sideB + sideC > sideA){
     alert("Isosceles Triangle");
   }else if (sideA !== sideB && sideA !== sideC && sideB !== sideC && sideA + sideB > sideC && sideA + sideC > sideB && sideC + sideB > sideA){
     alert("Scalene Triangle");
